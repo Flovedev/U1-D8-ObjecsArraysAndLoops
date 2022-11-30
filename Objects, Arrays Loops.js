@@ -163,7 +163,7 @@ console.log(clone5);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\n----------Excercise 9:---------\n")
+console.log("\n----------Excercise 9:---------\n");
 
 let carsForRent = [exc8, clone1, clone2, clone3, clone4, clone5];
 
@@ -175,7 +175,7 @@ console.log(carsForRent);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\n----------Excercise 10:---------\n")
+console.log("\n----------Excercise 10:---------\n");
 
 carsForRent.shift();
 carsForRent.pop();
@@ -187,7 +187,7 @@ console.log(carsForRent);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\n----------Excercise 11:---------\n")
+console.log("\n----------Excercise 11:---------\n");
 
 console.log(typeof exc8);
 console.log(typeof exc8.licensePlate);
@@ -200,7 +200,7 @@ console.log(typeof exc8.brand);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\n----------Excercise 12:---------\n")
+console.log("\n----------Excercise 12:---------\n");
 
 let carsForSale = ["trollcar", "memecar", "idkcar"];
 
@@ -213,4 +213,13 @@ console.log("Total of cars:", totalCars);
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log("\n----------Excercise 13:---------\n")
+console.log("\n----------Excercise 13:---------\n");
+
+for (let index = 0; index < carsForSale.length; index++) {
+    let exc13 = carsForSale[index];
+
+    console.log(
+        "This is my loop:",
+        exc13
+    );
+}
