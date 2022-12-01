@@ -202,7 +202,8 @@ console.log(typeof exc8.brand);
 
 console.log("\n----------Excercise 12:---------\n");
 
-let carsForSale = ["trollcar", "memecar", "idkcar"];
+let carsForSale = [];
+carsForSale.push(clone1, clone2, clone3);
 
 let totalCars = carsForSale.length;
 console.log("Total of cars:", totalCars);

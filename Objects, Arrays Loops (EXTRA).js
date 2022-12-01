@@ -62,6 +62,12 @@ for (let index = 1; index < exc2.length; index += 2) {
 
 console.log("\n----------Excercise 5:---------\n");
 
+for (let index = 0; index < exc2.length; index++) {
+    if (index % 2 === 0);
+    exc2.splice(index);
+    console.log("Result:", index);
+}
+
 
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
